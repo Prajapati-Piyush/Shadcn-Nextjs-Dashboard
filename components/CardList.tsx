@@ -89,7 +89,7 @@ const latestTransactions = [
 ];
 
 
-const CardList = ({ title }: { title: String }) => {
+const CardList = ({ title }: { title: string }) => {
     const list = title === "Popular Content" ? popularContent : latestTransactions;
 
     return (
